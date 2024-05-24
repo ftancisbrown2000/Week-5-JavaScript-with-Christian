@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <title>Local Storage</title>
+</head>
+
+<body>
+    <h1>JavaScript Local Storage</h1>
+    <form id="inputForm" class="form" autocomplete="off">
+        <label for="keyInput">Key:
+            <input type="text" id="keyInput">
+        </label>
+        <label for="valueInput">Value:
+            <input type="text" id="valueInput">
+        </label>
+        <input type="submit" id="submitBtn" value="Save">
+        <button id="deleteBtn">Clear &#128465;</button>
+    </form>
+
+
+
+    <form id="searchForm" class="form" autocomplete="off">
+        <div id="wrapper">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <input type="submit" id="searchBtn" value="Search">
+        </div>
+        <div class="container" id="searchOutput"></div>
+    </form>
+    <h2>Stored Data:</h2>
+    <div class="container" id="storageOutput"></div>
+</body>
+
+</html>

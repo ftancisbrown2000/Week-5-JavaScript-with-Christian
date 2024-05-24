@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>My Todo Document</title>
+
+</head>
+<body>
+
+    <!-- This is my first JavaScript Project -->
+    <!-- I chose a todo app using JavaScript because it contained ADD, Update and Delete function in it, I gained alot from Christians Lesson, understanding about DOM,Node and Local storage and css using Flex ect. I watched a few youtube videos on todo projects, I figured out how to add if statement if the new task was blank by adding an alert pop up if task was blank, trim() Trim whitespace from the input, document.createElement('div'); create a new DIV, appendChild(task_input_el); to add -->
+
+
+    <header>
+		<h1>Todo Project</h1>
+		<form id="new-task-form">
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="What do you have planned?" />
+			<input 
+				type="submit"
+				id="new-task-submit" 
+				value="Add task" />
+		</form>
+	</header>
+	<main>
+		<section class="task-list">
+			<h2>Tasks to do list goes here</h2>
+
+			<div id="tasks">
+
+				<!-- <div class="task">
+					<div class="content">
+						<input 
+							type="text" 
+							class="text" 
+							value="A new task"
+							readonly>
+					</div>
+					<div class="actions">
+						<button class="edit">Edit</button>
+						<button class="delete">Delete</button>
+					</div>
+				</div> -->
+
+			</div>
+		</section>
+	</main>
+</body>
+</html>
